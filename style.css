@@ -300,6 +300,177 @@ color: #FFFFFF;
     line-height: 26px;
     color: #E8E8E8;
 }
+.spainHouse{
+    position: absolute;
+    top: 1845px;
+    height: 700px;
+    width: 100%;
+    background-image: url(./assets/house.svg);
+	background-size: cover;
+	background-repeat: no-repeat;  
+}
+.spainHouse__content{
+    display: flex;
+    flex-direction: column;
+    width: 543px;
+    height: 374px;
+    margin-top: 227px;
+    margin-left: 328px;
+    background: #232323;
+    opacity: 0.9;
+}
+.spainHouse__title{
+
+width: 80px;
+height: 26px;
+margin-top: 49px;
+margin-left: 32px;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+
+
+display: flex;
+align-items: center;
+letter-spacing: 1.5px;
+
+color: #E8E8E8;
+}
+.spainHouse__subtitle{
+width: 241px;
+height: 26px;
+margin-left: 32px;
+margin-top: 23px;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #FFFFFF;
+}
+.spainHouse__text{
+    width: 508px;
+    height: 78px;
+    margin-left: 32px;
+    margin-top: 13px;
+    margin-bottom: 46px;
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+display: flex;
+align-items: center;
+
+color: #E8E8E8;
+}
+.spainHouse__btn{
+    width: 228px;
+    height: 63px;
+    margin-left: 32px;
+    font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+display: flex;
+align-items: center;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.spainSea
+{
+    position: absolute;
+    top: 2544px;
+    height: 700px;
+    width: 100%;
+    background-image: url(./assets/sea.svg);
+	background-size: cover;
+	background-repeat: no-repeat;  
+}
+.spainSea__content{
+    display: flex;
+    flex-direction: column;
+    width: 543px;
+    height: 374px;
+    margin-top: 227px;
+    margin-left: 898px;
+    background: #232323;
+    opacity: 0.9;
+}
+.spainSea__title{
+
+    width: 80px;
+    height: 26px;
+    margin-top: 49px;
+    margin-left: 32px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.5px;
+    
+    color: #E8E8E8;
+    }
+    .spainSea__subtitle{
+    width: 241px;
+    height: 26px;
+    margin-left: 32px;
+    margin-top: 23px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    }
+    .spainSea__text{
+        width: 508px;
+        height: 78px;
+        margin-left: 32px;
+        margin-top: 13px;
+        margin-bottom: 46px;
+        font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #E8E8E8;
+    }
+    .spainSea__btn{
+        width: 228px;
+        height: 63px;
+        margin-left: 32px;
+        font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    }
 
 @media(max-width: 767px){
     .main-header{
@@ -379,6 +550,27 @@ color: #FFFFFF;
         margin-top: 20px;
         
     }
+    .spainHouse{
+        overflow: hidden;
+        top: 2500px;
+       
+    }
+    .spainHouse__content{
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .spainHouse__text{
+        margin-top: 35px;
+        width: 300px;
+    }
+    .spainSea{
+        overflow: hidden;
+        top: 3200px;
+    }
+    .spainSea__content{
+        margin-left: 0px;
+        margin-top: 5px;
+    }
 }
 @media (min-width:768px) and (max-width:1024px){
     .main-header{
@@ -432,6 +624,20 @@ color: #FFFFFF;
     }
     .directory__content{
         margin-left: -370px;
+    }
+    .spainHouse{
+        overflow: hidden;
+    }
+    .spainHouse__content{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .spainSea{
+        overflow: hidden;
+    }
+    .spainSea__content{
+        margin-top: 250px;
+        margin-left: 250px;
     }
     
 
