@@ -183,6 +183,87 @@ table {
     color: white;
 
 }
+.btn { 
+    padding: 17px 35px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.38em;
+    background: #4F46BA;
+    text-decoration: none;
+  }
+.hero{
+    display: flex;
+    display: grid;
+    
+    position: absolute;
+    top: 820px;
+    height: 685px;
+    width: 100%;
+    background-image: url(./assets/city.svg);
+	background-size: cover;
+	background-repeat: no-repeat;   
+}
+.hero__section{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.hero__title{
+    width: 288px;
+    height: 26px;
+    margin-top: 212px;
+    margin-left: 330px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.hero__text{
+    width: 560px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 330px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+}
+.hero__images{
+    top: 0px;
+    left: 50%;
+}
+.hero__btn{
+    margin-top: 45px;
+    margin-left: 328px;
+    font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 1.2px;
+color: #FFFFFF;
+}
+.hero__image1{
+    position: absolute;
+    top: 117px;
+    margin-left: 1000px;
+}
+.hero__image2{
+    position: absolute;
+    margin-left: 1090px;
+    top: 358px;
+    
+}
+
 @media(max-width: 767px){
     .main-header{
         overflow: hidden;
@@ -221,6 +302,21 @@ table {
         display: flex;
         flex-wrap: wrap;
     }
+    .hero{
+        overflow: hidden;
+     
+    }
+    .hero__title{
+        margin-top: 80px;
+        margin-left: 70px;
+    }
+    .hero__text{
+        margin-left: 70px;
+    }
+    .hero__btn{
+        margin-left: 70px;
+    }
+    
 }
 @media (min-width:768px) and (max-width:1024px){
     .main-header{
@@ -249,6 +345,24 @@ table {
     .main-header__nav ul {
         width: 500px;
     }
+    .hero{
+        overflow: hidden;
+    }
+    .hero__title{
+        margin-top: 150px;
+        margin-left: 10px;
+    }
+    .hero__text{
+        margin-left: 10px;
+    }
+    .hero__btn{
+        margin-left: 10px;
+    }
+    .hero__image1{
+        margin-left: 400px;
+    }
+    .hero__image2{
+        margin-left: 440px;
+    }
 
 }
-
